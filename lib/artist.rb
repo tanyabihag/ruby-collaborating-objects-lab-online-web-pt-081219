@@ -34,7 +34,8 @@ def self.find_or_create_by_name(name)
 end
 
 def self.print_songs
-  puts self.songs.map { |song|
+  puts self.songs.map { |song| song.name }
+end
 
 end
   
