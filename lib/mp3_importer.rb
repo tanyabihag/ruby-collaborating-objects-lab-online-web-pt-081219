@@ -1,3 +1,4 @@
-class Mp3_importer
+class MP3Importer
   
-def initial
+def initialize(path)
+  
