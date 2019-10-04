@@ -24,11 +24,13 @@ def self.all
 end 
 
 def self.find_or_create_by_name(name)
-  Artist.name(name)
-  if Artist.all.find |artist|
-    artist.name ==name
+  result = Artist.all.find do |artist|
+    artist.name == name 
   end
-  if result
+  if !result 
+    result = Artist.new(name)
+  end 
+result
 
 end
 
