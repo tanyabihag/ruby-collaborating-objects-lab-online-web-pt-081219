@@ -31,8 +31,10 @@ def self.find_or_create_by_name(name)
     result = Artist.new(name)
   end 
   result
+end
 
-  end
+def self.print_songs
+  puts seld
 
 end
   
