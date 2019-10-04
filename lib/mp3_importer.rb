@@ -13,6 +13,7 @@ def files
 end
 
 def imoprt
-  self.files.each { |files 
+  self.files.each { |files| Song.new_by_filename(file)}
+end
       
 end 
