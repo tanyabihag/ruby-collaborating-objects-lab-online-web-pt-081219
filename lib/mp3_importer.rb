@@ -6,4 +6,7 @@ end
 
 def files
   files = []
-  Dir.new
+  Dir.new(self.path).each do |file|
+    if file.end_with?('.mp3')
+      
+end 
