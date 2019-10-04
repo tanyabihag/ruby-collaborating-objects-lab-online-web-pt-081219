@@ -5,4 +5,5 @@ def initialize(path)
 end
 
 def files
-  files
+  files = []
+  Dir.new
