@@ -11,5 +11,8 @@ def files
   end
   files
 end
+
+def imoprt
+  self.files.each { |files 
       
 end 
