@@ -30,10 +30,9 @@ def self.find_or_create_by_name(name)
   if !result 
     result = Artist.new(name)
   end 
-result
+  result
 
 end
-
 
 end
   
